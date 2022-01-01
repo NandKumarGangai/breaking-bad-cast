@@ -26,7 +26,18 @@ const App = () => {
     <div className="container">
       <Header />
       <Search getQuery={(q) => setQuery(q)} />
-      
+      {
+        isLoading &&
+        <Spinner />
+      }
+      <main className="page-content">
+        {
+          casts.map(cast => (
+            <Casts cast={cast} key={cast.char_id} />
+          ))
+        }
+      </main>
+      <Footer />
     </div>
   );
 }
