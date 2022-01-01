@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Breaking Bad Cast Info
 
 Live: https://nandkumargangai.github.io/breaking-bad-cast/  
 
